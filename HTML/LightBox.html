@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Box Hotel</title>
+    <link rel="shortcut icon" href="../image/travel/icon2.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/LightBox.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="img-con">
+            <div class="img-item">
+                <img onclick="openModal(); currentSlide(1)" src="../image/travel/hotel1.avif" alt="">
+            </div>
+            <div class="img-item">
+                <img onclick="openModal(); currentSlide(2)" src="../image/travel/hotel2.avif" alt="">
+            </div>
+            <div class="img-item">
+                <img onclick="openModal(); currentSlide(3)" src="../image/travel/hotel3.avif" alt="">
+            </div>
+            <div class="img-item">
+                <img onclick="openModal(); currentSlide(4)" src="../image/travel/hotel4.avif" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal/Lightbox -->
+     <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <img src="../image/travel/hotel1.avif" alt="">
+            </div>
+
+            <div class="mySlides">
+                <img src="../image/travel/hotel2.avif" alt="">
+            </div>
+
+            <div class="mySlides">
+                <img src="../image/travel/hotel3.avif" alt="">
+            </div>
+
+            <div class="mySlides">
+                <img src="../image/travel/hotel4.avif" alt="">
+            </div>
+
+            <!-- Next/previous controls -->
+             <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+             <a class="next" onclick="plusSlides(1)" >&#10095</a>
+
+             <!-- Thumbnail image controls -->
+                <div class="img-thb-con">
+                    <div class="img-thb">
+                        <img class="demo" onclick="currentSlide(1)" src="../image/travel/hotel1.avif" alt="">
+                    </div>
+
+                    <div class="img-thb">
+                        <img class="demo" onclick="currentSlide(2)" src="../image/travel/hotel2.avif" alt="">
+                    </div>
+
+                    <div class="img-thb">
+                        <img class="demo" onclick="currentSlide(3)" src="../image/travel/hotel3.avif" alt="">
+                    </div>
+
+                    <div class="img-thb">
+                        <img class="demo" onclick="currentSlide(4)" src="../image/travel/hotel4.avif" alt="">
+                    </div>                
+                </div>               
+        </div>
+     </div>
+    
+    <script src="../Script.js/LightBox.js"></script>
+</body>
+</html>

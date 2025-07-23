@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside {
+    background-color: #333;
+    padding: 2rem;
+    height: 100dvh;
+    width: 300px;
+    position: fixed;
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        margin: 2rem 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+section {
+    padding: 2rem;
+    margin-left: 300px;
+}

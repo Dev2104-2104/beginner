@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5rem;
+    text-align: center;
+    font-size: 5vw;
+}
+
+main {
+    padding: 2rem;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+#btt {
+    padding: 1rem 1.5rem;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    border-radius: 5px;
+    display: none;
+}

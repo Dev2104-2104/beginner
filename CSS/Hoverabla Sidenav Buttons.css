@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    list-style: none;
+
+    li {
+        margin: 0;
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            color: #fff;
+            background: #333;
+            width: 100px;
+            text-align: center;
+            padding: 1rem;
+            margin: .5rem 0;
+            margin-left: -5rem;
+            transition: 0.5s;
+            border-radius: 5px;
+
+            &:hover {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+#Home {
+    position: relative;
+    top: 20px;
+    background-color: #04AA60;
+}
+
+#About {
+    position: relative;
+    top: 40px;
+    background-color: #2196F3;
+}
+
+#Blog {
+    position: relative;
+    top: 60px;
+    background-color: #f44336;
+}
+
+#Project {
+    position: relative;
+    top: 80px;
+    background-color: #555;
+}
+
+#Contact {
+    position: relative;
+    top: 100px;
+    background-color: #0f0;
+}

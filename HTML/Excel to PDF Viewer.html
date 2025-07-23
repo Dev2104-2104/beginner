@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/CSS/Excel to PDF Viewer.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <h1>📊 Excel to PDF Viewer</h1>
+            <p>อัปโหลดไฟล์ Excel และแปลงเป็น PDF ได้ง่ายๆ</p>
+        </div>
+        
+        <div class="upload-section">
+            <div class="upload-area" id="uploadArea">
+                <div class="upload-icon">📁</div>
+                <h3>ลากไฟล์ Excel มาวางที่นี่</h3>
+                <p>หรือคลิกเพื่อเลือกไฟล์</p>
+                <p style="color: #666; margin-top: 10px;">รองรับไฟล์ .xlsx, .xls</p>
+                <input type="file" id="fileInput" class="file-input" accept=".xlsx,.xls">
+            </div>
+            <button class="upload-btn" onclick="document.getElementById('fileInput').click()">
+                เลือกไฟล์ Excel
+            </button>
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>กำลังอ่านไฟล์...</p>
+        </div>
+        
+        <div class="data-section" id="dataSection">
+            <div class="file-info" id="fileInfo"></div>
+            
+            <div class="controls">
+                <div>
+                    <label for="sheetSelector">เลือก Sheet: </label>
+                    <select id="sheetSelector" class="sheet-selector"></select>
+                </div>
+                <button class="pdf-btn" onclick="exportToPDF()">
+                    📄 Export เป็น PDF
+                </button>
+            </div>
+            
+            <div class="table-container">
+                <table id="dataTable">
+                    <thead id="tableHead"></thead>
+                    <tbody id="tableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../Script.js/Excel to PDF Viewer.js"></script>
+</body>
+</html>

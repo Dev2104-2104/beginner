@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="../CSS/Shopping.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <a href="Shopping.html">
+                <img src="https://png.pngtree.com/png-vector/20220930/ourmid/pngtree-shopping-logo-design-for-online-store-website-png-image_6239056.png" class="logonav">
+            </a>
+
+            <div class="nav-profile">
+                <p class="nav-profile-name">Moring Shop</p>
+                <div class="nav-profile-cart">
+                    <i class="fas fa-cart-shopping"></i>
+                    <div class="cart-count">
+                        5
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <input type="text" class="sidebar-search" placeholder="Search . .">
+            <a href="#" class="sidebar-items">
+                Menu 1
+            </a>
+            <a href="#" class="sidebar-items">
+                Menu 2
+            </a>
+            <a href="#" class="sidebar-items">
+                Menu 3
+            </a>
+            <a href="#" class="sidebar-items">
+                Menu 4
+            </a>
+        </div>
+        <div id="productlist" class="product">
+            <div class="product-items">
+                <img class="product-img" src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?q=80&w=1349&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <p style="font-size: 1.3vw;">Product Name</p>
+                <p style="font-size: 1vw;">500 THB</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" style="display: none;">
+        <div class="modal-bg"></div>
+        <div class="modal-page">
+            <h2>Detail</h2>
+            <br>
+            <div class="modaldesc-content">
+                <img class="modaldesc-img" src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?q=80&w=1349&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <div class="modaldesc-detail">
+                    <p style="font-size: 1.5vw;">Product name</p>
+                    <p style="font-size: 1.2vw;">500 THB</p><br>
+                    <p style="color: #adadad;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque commodi suscipit fugit, quod velit eius dolores placeat reprehenderit necessitatibus possimus atque dicta ullam blanditiis excepturi nam corrupti.</p>
+                    <div class="btn-control">
+                        <button class="btn">
+                            Close
+                        </button>
+                        <button class="btn btn-buy">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" style="display: none;">
+        <div class="modal-bg"></div>
+        <div class="modal-page">
+            <h2>My cart</h2>
+            <br>
+            <div class="cartlist">
+                <div class="cartlist-items">
+                    <div class="cartlist-left">
+                        <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?q=80&w=1349&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5vw;">Product name</p>
+                            <p style="font-size: 1.2vw;">500 THB</p>
+                        </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px;">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+                <div class="cartlist-items">
+                    <div class="cartlist-left">
+                        <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?q=80&w=1349&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5vw;">Product name</p>
+                            <p style="font-size: 1.2vw;">500 THB</p>
+                        </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px;">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+                <div class="cartlist-items">
+                    <div class="cartlist-left">
+                        <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?q=80&w=1349&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5vw;">Product name</p>
+                            <p style="font-size: 1.2vw;">500 THB</p>
+                        </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px;">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+                <div class="cartlist-items">
+                    <div class="cartlist-left">
+                        <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?q=80&w=1349&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5vw;">Product name</p>
+                            <p style="font-size: 1.2vw;">500 THB</p>
+                        </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px;">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+                <div class="cartlist-items">
+                    <div class="cartlist-left">
+                        <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?q=80&w=1349&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5vw;">Product name</p>
+                            <p style="font-size: 1.2vw;">500 THB</p>
+                        </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px;">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-control">
+                <button class="btn">
+                    Cancel
+                </button>
+                <button class="btn btn-buy">
+                    Buy
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../Script.js/Shopping.js"></script>
+</body>
+</html>

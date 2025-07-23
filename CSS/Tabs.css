@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tab    {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+    button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+
+        }
+
+        button:hover {
+            background-color: #ddd;
+        }
+
+        button.active {
+            background-color: #ccc;
+        }
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    animation: fadeEffect;
+    position: relative;
+}
+
+.topright {
+    position: absolute;
+    right: 1rem;
+    top: 0;
+    cursor: pointer;
+    font-size: 28px;
+}

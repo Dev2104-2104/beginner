@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    column-count: 6; /*จำนวน*/
+    column-width: 150px;  /*ถ้าขนาดยาวกว่า ค่าที่กำหนดจะแสดง column*/
+    column-gap: 10px; /*ความห่างระหว่าง cloumn*/
+
+    div {
+        border: 1px solid #000;
+    }
+}
+

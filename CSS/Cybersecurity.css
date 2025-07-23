@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html.light {
+    --bg: #ffff;
+    --text: #000;
+    --ft: #CC99FF;
+    --ex: #333;
+    --bgh: #000;
+}
+
+html.dark {
+    --bg: #1e1e1e;
+    --text: #f5f5f5;
+    --ft: #ffff;
+    --ex: #ffff;
+    --bgh: #333;
+}
+
+html.black {
+    --bg: #000;
+    --text: #ffff;
+    --ft: #ffff;
+    --ex: #ffff;
+    --bgh: #333;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    transition: 0.3 ease, color 0.3s ease;
+}
+
+.theme-switcher {
+    display: flex;
+    gap: 10px;
+    background: #333;
+    padding: 10px;
+    border-radius: 50px;
+    width: 250px;
+    justify-content: center;
+    font-family: "PT Serif", serif;
+    margin: 10px;
+}
+
+.theme-switcher label {
+    color: #ffff;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.theme-switcher label:hover {
+    transform: scale(1.1);
+    color: #ffff;
+    text-shadow: 
+    0 0 10px rgb(255, 0, 13),
+    0 0 20px rgb(255, 0, 13),
+    0 0 40px rgb(255, 0, 13);
+}
+
+.sidenav {
+    position: sticky;
+    top: 55px;
+}
+
+#mySidenav a{
+    position: absolute;
+    text-decoration: none;
+    left: -119px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 160px;
+    color: #ffff;
+    border-radius: 0 10px 10px 0;
+    transition: 0.7s;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    z-index: 10;
+}
+
+#mySidenav a:hover{
+    left: 0;
+}
+
+#mySidenav a i{
+    padding: 0 1px;
+}
+
+#home {
+    top: 80px;
+    background-color: #CCCCFF;
+    box-shadow: 0 0 20px #000;
+}
+
+#qtion {
+    top: 140px;
+    background-color: #CC99FF;
+    box-shadow: 0 0 20px #000;
+}
+
+#lerning {
+    top: 200px;
+    background-color: #CC66FF;
+    box-shadow: 0 0 20px #000;
+
+}
+
+#member {
+    top: 260px;
+    background-color: #CC33FF;
+    box-shadow: 0 0 20px #000;
+}
+
+.img-top {
+    background: url("https://images.unsplash.com/photo-1669023414162-5bb06bbff0ec?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    height: 45vw;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 40px #000;
+}
+
+.img-text {
+    color: #ffff;
+    font-family: "Michroma", sans-serif;
+    font-size: 5vw;
+    display: flex;
+    text-shadow: 
+    0 0 10px rgb(0, 0, 0),
+    0 0 20px rgb(0, 0, 0),
+    0 0 30px rgb(0, 0, 0)
+    ;
+}
+
+.container {
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Kanit", sans-serif;
+    color: var(--text);
+    width: 98%;
+    font-size: 1vw;
+
+}
+
+.container-left, .container-right {
+    display: inline-block;
+    width: 45vw;
+    box-shadow: 0 0 40px #000;
+    border-radius: 20px;
+    padding: 10px 35px;
+    height: 9vw;
+}
+
+.text-li {
+    font-family: "Kanit", sans-serif;
+    font-size: 0.8vw;
+}
+
+.container-footer {
+    background-color: var(--ft);
+    width: 100%;
+    height: 2vw;
+}
+
+.container-te {
+    box-shadow: 
+    0 0 0 rgb(0, 0, 0),
+    0 0 0 rgb(0, 0, 0),
+    0 0 40px rgb(0, 0, 0);
+}
+
+.container-te h2{
+    font-family: "Kanit", sans-serif;
+    font-size: 1.2vw;
+    margin: 2vw 4vw;
+    background-color: #CC66FF;
+    border-radius: 15px;
+    padding: 0.8vw 2vw;
+    color: #ffff;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.container-te h2:hover {
+    background-color: #CC99FF;
+}
+
+.accordion {
+    font-family: "Kanit", sans-serif;
+    font-size: 1vw;
+    background-color: #DCDCDC;
+    color: var(--bgh);
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    padding: 0.4vw 2.8vw;
+    transition: 0.7s;
+    margin: 0.2vw;
+}
+
+.active, .accordion:hover{
+    background-color: #CC99FF;
+    color: #ffff;
+}
+
+.panel {
+    font-family: "Kanit", sans-serif;
+    font-size: 0.8vw;
+    background-color: var(--bg);
+    padding: 0 2vw;
+    overflow: hidden;
+    display: none;
+    color: var(--ex);
+    margin: 0.5vw 2.5vw;
+}
+
+hr {
+    margin: 20px 0;
+}
