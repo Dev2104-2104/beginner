@@ -1,11 +1,15 @@
-while True:
-    text = input("กรุณาป้อนเลข (หรือพิมพ์ x เพื่อออก): ")
-    if text.lower() == "x":
-        break
+n = int(input("กรุณาป้อนจำนวนแถว : "))
 
-    n = int(text)
+for row in range(1, n + 1):
+    space = n -  row
+    star = 2 * row - 1
+    print(" " * space + "*" * star)
 
-    for roe in range(1, n + 1):
-        space = n - roe
-        star = 2 * roe - 1
-        print(" " * space + "*" * star)
+    function = แปรตัว
+    Arguments = ตัวแปรส่งค่า
+            มีลักษณะการทำงานอยู่ 2 ลักษณะ
+                1.*args (แบบกำหนดค่า)
+                2.**kwargs (แบบกำหนดชื่อ)
+    parametor = ตัวแปรรับค่า
+
+    การทำงานของทั้ง 3 ตัวคือ Arguments ส่งค่าให้ function ส่งค่ามาเก็บไว้ใน parametor
