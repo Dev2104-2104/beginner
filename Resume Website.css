@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+    /* HEADER */
+header {
+    background-color: rgb(92, 89, 89);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header-right {
+    text-align: right;
+    color: #fff;
+}
+
+.name-top {
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+.email-top {
+    font-size: 1.8vw;
+}
+
+.image {
+    height: 15vw;
+    object-fit: cover;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    background-color: rgb(224, 220, 220);
+    margin: 3vw;
+}
+
+img {
+    object-fit: contain;
+    width: 10vw;
+    margin: 1vw;
+    border-radius: 20px;
+}
+
+    /* MAIN CONTENT */
+.container {
+    display: flex;
+    padding: 40px;
+}
+
+.left,
+.right {
+    flex: 1;
+    padding: 20px;
+}
+
+.left {
+    background-color: rgb(224, 220, 220);
+}
+
+.divider {
+    width: 2px;
+    background-color: #ccc;
+    margin: 0 20px;
+}
+
+h2 {
+    color: #000; /* ม่วงเข้ม */
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+hr {
+    height: 2px;
+    
+}

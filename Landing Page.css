@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-content {
+    padding: 1vw 4vw;
+}
+
+.top-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+li {
+    margin: 0 1vw;
+}
+
+.top-text-c {
+    text-decoration: none;
+    color: #686867;
+}
+
+.top-text-c:hover {
+    
+}
+
+.right-top {
+
+}
+
+.bar-right {
+    display: flex;
+    text-decoration: none;
+}
+
+.top-text-cr {
+    color: #686867;
+    text-decoration: none;
+    margin: 0   1.8vw;
+}
+
+.ili {
+    border: solid 1px #000;
+}
