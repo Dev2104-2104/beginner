@@ -177,7 +177,7 @@ i {
     transform: translateY(-50%);
     color: #03185C;
     cursor: pointer;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 .slideshow-container {
