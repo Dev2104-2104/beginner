@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.gallery {
+    margin: 1vw;
+}
+
+.title-tp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5vw;
+}
+
+.text-l {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+}
+
+.back-b {
+    font-size: 1.5vw;
+    border: none;
+    background: #fff;
+    width: 45px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.back-b:hover {
+    background-color: #333;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.text-l h1 {
+    font-size: 2vw;
+}
+
+.text-r {
+    min-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-t {
+    font-size: 1vw;
+    width: 100px;
+    height: 2vw;
+    border-radius: 10px;
+    border: none;
+    background-color: #3849B5;
+    color: #fff;
+    margin: 0.2vw;
+    cursor: pointer;
+}
+
+.top-t:hover {
+    background: #243078;
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+#uer-icon {
+    font-size: 2vw;
+    margin: 0 0 0 3vw;
+    color: #787878;
+    cursor: pointer;
+}
+
+#user-icon:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.img-g {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.text {
+    margin: 1vw 0 2vw 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+}
+
+.product-card {
+    cursor: pointer;
+}
