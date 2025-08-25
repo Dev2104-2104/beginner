@@ -25,7 +25,6 @@ html.light {
 
 .container-content {
     padding: 0.5vw 13vw;
-
 }
 
 .top-text {
@@ -347,6 +346,15 @@ i {
     object-fit: cover;
     border-radius: 10px;
     height: 10vw;
+}
+
+.items-fm:hover {
+    color: #000;
+    box-shadow: 
+    0 0 2px,
+    0 0 5px,
+    0 0 10px;
+    transition: 0.8s;
 }
 
 .footer {

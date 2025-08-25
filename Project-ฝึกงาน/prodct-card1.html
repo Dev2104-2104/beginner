@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./prodct-card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/zqNEWiGA_SogqqQHNW0R2w3s5BcvHxc80GjZ_qbMIY3elmKw6WMUzAzmbjwQFUzq__s" type="image/x-icon">
+</head>
+<body>
+    <div class="container-content">
+        <div class="top-text">
+            <div class="left-top">
+                <ul>
+                    <li><a href="" class="top-text-c">Kaidee</a></li>
+                    <li><a href="" class="top-text-c">Kaidee Auto</a></li>
+                    <li><a href="" class="top-text-c">Kaidee Property</a></li>
+                    <li><a href="" class="top-text-c">Kaidee Jobs</a></li>
+                </ul>
+            </div>
+
+            <div class="right-top">
+                <div class="bar-right">
+                    <a href="#" target="_blank" class="top-text-cr">ช่วยเหลือ</a>
+                    <div class="top-lag">
+                        <span class="ili">
+                            <a href="#" class="top-text-cr">TH</a>
+                        </span>
+
+                        <span class="ili">
+                        <a href="#" class="top-text-cr">EN</a>
+                        </span>
+
+                        <span class="ili">
+                        <a href="#" class="top-text-cr">CN</a>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="top-bar">
+            <div class="bar-left">
+                <a class="logo-kaidee" href="./Landing Page.html">
+                <img alt="logo" height="28px" src="https://ast.kaidee.com/blackpearl/_static/images/shared/logos/kaidee-caro.svg" width="94px">
+                </a>
+                <a class="text-kaidee" href="#">บทความ</a>
+            </div>
+            <div class="bar-right-kaidee">
+                <div class="icon">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-regular fa-message"></i></a>
+                </div>
+                <div class="login">
+                    <a href="#" class="login-btn">เข้าสู่ระบบ / สมัครสมาชิก</a>
+                </div>
+                <button>ลงขาย</button>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-bg">
+        <div class="container-content">
+            <div class="container-middle">
+                <div class="top-text">
+                    <p class="top-left">Kaidee</p>
+                    <p class="top-left">มือถือ แท็บเล็ต</p>
+                    <p class="top-left">โทรศัพท์มือถือ</p>
+                    <p class="top-left">Vivo</p>
+                    <p class="top-left">อื่นๆ</p>
+                    <p class="top-left">ชลบุรี</p>
+                    <p class="top-left">เมืองชลบุรี</p>
+                </div>
+            </div>
+            <div class="product-container">
+                <div class="product-images">
+                    <button class="favorite-btn">♡</button>
+                    <div class="main-image">
+                        รูปสินค้าหลัก
+                    </div>
+                    <div class="thumbnail-images">
+                        <div class="thumbnail active"></div>
+                        <div class="thumbnail"></div>
+                        <div class="thumbnail"></div>
+                        <div class="thumbnail"></div>
+                    </div>
+                </div>
+
+                <div class="product-info">
+                    <h1>iPhone 15 Pro Max 256GB สีไทเทเนียมธรรมชาติ</h1>
+                    <div class="price">
+                        <span class="original-price">฿55,900</span>
+                        <span>฿49,900</span>
+                    </div>
+
+                    <div class="product-details">
+                        <div class="detail-row">
+                            <span>สถานะ:</span>
+                            <span>ใหม่ มือ 1</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>ยี่ห้อ:</span>
+                            <span>Apple</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>รุ่น:</span>
+                            <span>iPhone 15 Pro Max</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>หน่วยความจำ:</span>
+                            <span>256GB</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>สี:</span>
+                            <span>ไทเทเนียมธรรมชาติ</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>การจัดส่ง:</span>
+                            <span>จัดส่งทั่วประเทศ</span>
+                        </div>
+                    </div>
+
+                    <div class="quantity-selector">
+                        <span>จำนวน:</span>
+                        <div class="quantity-controls">
+                            <button class="quantity-btn" onclick="decreaseQuantity()">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1" max="10" id="quantity">
+                            <button class="quantity-btn" onclick="increaseQuantity()">+</button>
+                        </div>
+                        <button class="share-btn">แชร์</button>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button class="btn btn-secondary">แชทกับผู้ขาย</button>
+                        <button class="btn btn-primary">ซื้อเลย</button>
+                    </div>
+
+                    <div class="tags">
+                        <span class="tag">#iPhone</span>
+                        <span class="tag">#Apple</span>
+                        <span class="tag">#มือถือ</span>
+                        <span class="tag">#ProMax</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="seller-info">
+                <h2 style="margin-bottom: 20px; color: #2c3e50;">ข้อมูลผู้ขาย</h2>
+                <div class="seller-profile">
+                    <div class="seller-avatar">JD</div>
+                    <div class="seller-details">
+                        <h3>John Digital Store</h3>
+                        <div class="seller-rating">
+                            <span class="stars">★★★★★</span>
+                            <span>4.8/5 (245 รีวิว)</span>
+                        </div>
+                        <p>ออนไลน์ล่าสุด: 2 ชั่วโมงที่แล้ว</p>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 15px;">
+                    <button class="btn btn-secondary">ดูร้านค้า</button>
+                    <button class="btn btn-primary">ติดตามร้านค้า</button>
+                </div>
+            </div>
+
+            <div class="description-section">
+                <h2>รายละเอียดสินค้า</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    iPhone 15 Pro Max ในสีไทเทเนียมธรรมชาติ ความจุ 256GB เครื่องใหม่แกะกล่อง พร้อมประกันศูนย์ไทย 1 ปี
+                </p>
+                <br>
+                <h3 style="margin-bottom: 10px;">คุณสมบัติเด่น:</h3>
+                <ul style="margin-left: 20px; line-height: 1.8; color: #555;">
+                    <li>หน้าจอ Super Retina XDR ขนาด 6.7 นิ้ว</li>
+                    <li>ชิป A17 Pro ประสิทธิภาพสูงสุด</li>
+                    <li>กล้องหลัง 48MP กับระบบ Pro Camera</li>
+                    <li>แบตเตอรี่ใช้งานได้นานถึง 29 ชั่วโมง</li>
+                    <li>ตัวเครื่องทำจากไทเทเนียมเกรดการบิน</li>
+                    <li>รองรับ 5G และ Wi-Fi 6E</li>
+                </ul>
+
+                <div class="safety-tips">
+                    <h4>💡 เคล็ดลับการซื้อขายที่ปลอดภัย</h4>
+                    <p>• ตรวจสอบสินค้าให้ดีก่อนชำระเงิน<br>
+                    • ใช้บริการชำระเงินผ่าน Kaidee เพื่อความปลอดภัย<br>
+                    • ระวังการโอนเงินล่วงหน้าโดยไม่ได้เห็นสินค้า</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
